@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Login() {
   const [username, setUsername] = useState("");
@@ -7,7 +8,7 @@ function Login() {
     event.preventDefault();
 
     // Do something
-    alert(`hello ${username} `);
+    console.log(`hello ${username} `);
   };
   return (
     <div>
@@ -25,7 +26,9 @@ function Login() {
           password:
           <input type="password" placeholder="password" />
         </div>
-        <button type="submit">login</button>
+        <button type="submit">
+          <Link to="/status_rooms">login</Link>
+        </button>
       </form>
     </div>
   );
