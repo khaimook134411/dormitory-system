@@ -1,0 +1,24 @@
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgb(198, 84, 84);
+  margin: auto;
+}
+
+.building1 {
+  width: 10%;
+  height: 20%;
+  background-color: aqua;
+}
+
+.building2 {
+  width: 20%;
+  height: 20%;
+  background-color: rgb(251, 0, 255);
+}
+
+.building3 {
+  width: 30%;
+  height: 20%;
+  background-color: rgb(4, 255, 0);
+}
